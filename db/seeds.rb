@@ -7,4 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 dog = Dog.new({ name: "Fido", breed: "Alaskan Malamute", disposition: "kind" })
-dog.save
+#dog.save
+
+dog = Dog.new({ name: "Jake", breed: "Golden Retriever", disposition: "goofy" })
+#dog.save
